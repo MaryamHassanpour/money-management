@@ -28,7 +28,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "budget_management.apps.BudgetManagementConfig",
-    "user_management.apps.UserManagementConfig",
 ]
 
 MIDDLEWARE = [
