@@ -66,7 +66,7 @@ WSGI_APPLICATION = "money_management.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": BASE_DIR / "db.postgresql",
+        "NAME": "moneymanagement",
         "USER": "admin",
         "PASSWORD": "3mgO/MRgjhE=",
         "HOST": "localhost",  # Or your DB host/IP
